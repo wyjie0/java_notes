@@ -1,0 +1,1759 @@
+!SESSION 2020-04-03 00:40:40.493 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\asd.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\asd.xmind
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2020-04-03 00:40:45.004
+!MESSAGE Unable to acquire PluginConverter service during generation for: E:\Xmind8\Xmind8 Update8特别版\plugins\www.ghboke.com.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2020-04-03 00:40:45.198
+!MESSAGE Unable to acquire PluginConverter service during generation for: E:\Xmind8\Xmind8 Update8特别版\plugins\www.ghboke.com.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2020-04-03 00:40:45.376
+!MESSAGE Unable to acquire PluginConverter service during generation for: E:\Xmind8\Xmind8 Update8特别版\plugins\www.ghboke.com.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2020-04-03 00:40:45.534
+!MESSAGE Unable to acquire PluginConverter service during generation for: E:\Xmind8\Xmind8 Update8特别版\plugins\www.ghboke.com.jar.
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 00:40:45.736
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 00:40:45.737
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 00:40:47.465
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\asd.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 00:40:49.128
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\asd.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-03 00:40:49.139
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\asd.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-03 00:40:51.273
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.core.command.remote.lan 2 0 2020-04-03 00:40:51.828
+!MESSAGE 
+!STACK 0
+com.apple.dnssd.AppleDNSSDException: DNS-SD Error -65563: SERVICENOTRUNNING
+	at com.apple.dnssd.AppleService.ThrowOnErr(DNSSD.java:652)
+	at com.apple.dnssd.AppleBrowser.<init>(DNSSD.java:704)
+	at com.apple.dnssd.AppleDNSSD._makeBrowser(DNSSD.java:557)
+	at com.apple.dnssd.DNSSD.browse(DNSSD.java:120)
+	at com.apple.dnssd.DNSSD.browse(DNSSD.java:138)
+	at org.xmind.core.internal.command.remote.lan.dnssd.DNSSDDiscoveryServiceAdapter.activate(DNSSDDiscoveryServiceAdapter.java:189)
+	at org.xmind.core.internal.command.remote.lan.LANDiscoveryServiceAdapter.activate(LANDiscoveryServiceAdapter.java:91)
+	at org.xmind.core.internal.command.remote.DefaultCommandServiceDomainDirector.activate(DefaultCommandServiceDomainDirector.java:170)
+	at org.xmind.core.internal.command.remote.DefaultCommandServiceDomainDirector.connect(DefaultCommandServiceDomainDirector.java:96)
+	at org.xmind.core.internal.sharing.LocalNetworkSharingService.activate(LocalNetworkSharingService.java:359)
+	at org.xmind.ui.internal.sharing.ToggleSharingServiceStatusJob.activate(ToggleSharingServiceStatusJob.java:78)
+	at org.xmind.ui.internal.sharing.ToggleSharingServiceStatusJob.run(ToggleSharingServiceStatusJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2020-04-03 14:25:38.046 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 14:25:45.816
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 14:25:45.817
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 14:25:50.927
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 14:25:54.270
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-03 14:25:54.291
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-03 14:25:57.195
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-03 15:20:13.614
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 16:34:47.577
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 16:34:47.579
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-03 16:34:47.580
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.eclipse.ui 2 2 2020-04-03 17:44:34.316
+!MESSAGE Invalid preference category path: org.eclipse.ui.preferencePages.Workbench (bundle: org.eclipse.ui.net, page: org.eclipse.ui.net.NetPreferences)
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-03 21:23:09.748
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 23:14:40.635
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-03 23:14:40.704
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-03 23:14:40.705
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-04 00:39:37.923
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-04 09:20:04.551 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-04 09:20:15.794
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-04 09:20:15.794
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-04 09:20:23.240
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-04 09:20:26.665
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-04 09:20:26.715
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-04 09:20:28.805
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-04 10:17:55.842
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-04 17:58:38.496
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.gallery 2 0 2020-04-05 00:32:35.057
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> F:\Java书和视频\笔记\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.gallery 2 0 2020-04-05 00:32:35.186
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> F:\Java书和视频\笔记\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.gallery 2 0 2020-04-05 00:32:35.335
+!MESSAGE 下载失败: https://www.xmind.cn/xmind/zh/CN/clipart.xml?buildId=R3.7.8.201807240049&distributionId=cathy_win32 -> F:\Java书和视频\笔记\workspace\gallery\.downloaded\clipart_zh_CN.xml.temp
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(HttpURLConnection.java:2719)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2641)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1824)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.ui.io.DownloadJob.runSafely(DownloadJob.java:186)
+	at org.xmind.ui.io.DownloadJob.run(DownloadJob.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-05 00:54:08.238
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-06 15:54:09.980 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-06 15:54:13.161
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-06 15:54:13.180
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-06 15:54:15.760
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-06 15:54:17.616
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-06 15:54:17.630
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-06 15:54:19.126
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.eclipse.ui 2 2 2020-04-06 15:55:55.753
+!MESSAGE Invalid preference category path: org.eclipse.ui.preferencePages.Workbench (bundle: org.eclipse.ui.net, page: org.eclipse.ui.net.NetPreferences)
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-06 23:34:45.920
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-07 08:05:25.046 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 08:05:28.254
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 08:05:28.258
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 08:05:30.580
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 08:05:30.584
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 08:05:32.384
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind, F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-07 08:05:32.397
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.core.command 1 0 2020-04-07 08:05:32.446
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-07 08:05:34.056
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-07 08:06:24.442
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-07 11:24:34.952
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-07 13:11:22.168
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-07 18:00:04.037 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 18:00:06.734
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 18:00:06.734
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 18:00:08.982
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-07 18:00:10.699
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-07 18:00:10.714
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-07 18:00:13.542
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-07 23:10:51.539
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-08 08:09:30.959 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 08:09:34.389
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 08:09:34.404
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 08:09:36.664
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 08:09:38.463
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-08 08:09:38.479
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-08 08:09:40.079
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-08 09:41:23.458
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 09:52:18.205
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-08 09:52:18.206
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-08 09:52:18.212
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-08 15:36:00.498
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-08 22:15:46.767
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-08 23:45:32.285
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-08 23:49:50.855
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-09 00:03:46.255
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-09 22:58:27.159 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-09 22:58:31.739
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-09 22:58:31.764
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-09 22:58:34.202
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-09 22:58:36.003
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-09 22:58:36.029
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-09 22:58:37.451
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-09 23:16:33.825
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-10 09:09:43.019 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-10 09:09:46.108
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-10 09:09:46.108
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-10 09:09:48.292
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-10 09:09:49.885
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-10 09:09:49.900
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-10 09:09:51.382
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-10 11:23:05.024
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-10 15:40:05.066
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-10 15:40:06.348
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-15 16:59:55.175 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-15 16:59:59.000
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-15 16:59:59.013
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-15 17:00:01.634
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-15 17:00:03.754
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-15 17:00:03.772
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-15 17:00:05.312
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-15 17:02:11.019
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-16 08:30:17.613 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-16 08:30:20.565
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-16 08:30:20.576
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-16 08:30:22.765
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-16 08:30:24.422
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-16 08:30:24.434
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-16 08:30:25.768
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-16 10:07:08.795
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-17 09:46:24.614 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-17 09:46:32.073
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-17 09:46:32.074
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-17 09:46:36.968
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-17 09:46:36.972
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-17 09:46:40.260
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind, F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-17 09:46:40.289
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.core.command 1 0 2020-04-17 09:46:40.357
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-17 09:46:43.169
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+!SESSION 2020-04-18 11:41:56.345 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-18 11:42:00.528
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-18 11:42:00.545
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-18 11:42:03.944
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-18 11:42:03.948
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-18 11:42:06.182
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java知识体系.xmind, F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-18 11:42:06.195
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.core.command 1 0 2020-04-18 11:42:06.223
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-18 11:42:13.280
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-18 23:16:08.408
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-19 10:33:50.331 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-19 10:33:53.554
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-19 10:33:53.572
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-19 10:33:56.056
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-19 10:33:58.211
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-19 10:33:58.226
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-19 10:33:59.700
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-19 14:28:53.173
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-21 10:24:29.018 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-21 10:24:32.840
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-21 10:24:32.841
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-21 10:24:35.968
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-21 10:24:37.887
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-21 10:24:37.902
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-21 10:24:39.750
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-21 10:38:45.932
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-22 18:59:01.626 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-22 18:59:09.007
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-22 18:59:09.033
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-22 18:59:13.870
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-22 18:59:16.911
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-22 18:59:16.938
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-22 18:59:19.348
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+!SESSION 2020-04-23 16:39:41.162 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-23 16:39:44.870
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-23 16:39:44.882
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-23 16:39:47.660
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-23 16:39:49.757
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-23 16:39:49.773
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-23 16:39:51.454
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+
+!ENTRY org.xmind.ui.mindmap 4 4 2020-04-23 22:07:13.786
+!MESSAGE [save] start...[save] add state...[save] clean...[save] doSave start...[save] doSaveWorkbookToTempStorage start...[save] doSaveWorkbookToTempStorage over...[save] doSaveWorkbookToURIFromSource start...[save] new file...[save] serialize start...[save] new FileOutputStream...[save] setOutputStream...[save] serialize success...[save] doSaveWorkbookToURIFromSource over...[save] doSave over...[save] success...over...
+!SESSION 2020-04-25 08:55:53.451 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-25 08:55:56.808
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-25 08:55:56.809
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-25 08:55:59.057
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-25 08:56:00.749
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-25 08:56:00.765
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-25 08:56:02.203
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+!SESSION 2020-04-26 14:15:41.834 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-26 14:15:45.297
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-26 14:15:45.313
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-26 14:15:47.591
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-26 14:15:49.292
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-26 14:15:49.354
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind, F:\Java书和视频\笔记\Java知识体系.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-26 14:15:49.354
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.core.command 1 0 2020-04-26 14:15:49.417
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java知识体系.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-26 14:15:50.774
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more
+!SESSION 2020-04-30 09:01:33.437 -----------------------------------------------
+eclipse.buildId=R3.7.8.201807240049
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data ./workspace -eclipse.keyring @user.home/Application Data/XMind/secure_storage F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-30 09:01:38.527
+!MESSAGE Skip unrecognized command line argument: '-eclipse.keyring'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-30 09:01:38.528
+!MESSAGE Skip unrecognized command line argument: '@user.home/Application Data/XMind/secure_storage'
+
+!ENTRY org.xmind.cathy 1 0 2020-04-30 09:01:41.484
+!MESSAGE Path queued to be opened: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY org.xmind.cathy 1 0 2020-04-30 09:01:43.365
+!MESSAGE Ready to open files: [F:\Java书和视频\笔记\Java.xmind]
+
+!ENTRY org.xmind.core.command 1 0 2020-04-30 09:01:43.378
+!MESSAGE Malformed URI: F:\Java书和视频\笔记\Java.xmind
+
+!ENTRY net.xmind.workbench 4 0 2020-04-30 09:01:45.067
+!MESSAGE Failed to retrieve site events: 3
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1944)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1939)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1938)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1508)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:1011)
+	at org.xmind.core.net.internal.XMindNetRequest.executeInDaemonThread(XMindNetRequest.java:898)
+	at org.xmind.core.net.internal.XMindNetRequest.access$0(XMindNetRequest.java:891)
+	at org.xmind.core.net.internal.XMindNetRequest$1.run(XMindNetRequest.java:872)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1959)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302)
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1514)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:216)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:1026)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:961)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1072)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1385)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1413)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1397)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:559)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at org.xmind.core.net.internal.XMindNetRequest.send(XMindNetRequest.java:984)
+	... 4 more
+Caused by: java.security.cert.CertificateException: No name matching www.xmind.net found
+	at sun.security.util.HostnameChecker.matchDNS(HostnameChecker.java:231)
+	at sun.security.util.HostnameChecker.match(HostnameChecker.java:96)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:455)
+	at sun.security.ssl.X509TrustManagerImpl.checkIdentity(X509TrustManagerImpl.java:436)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:200)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1496)
+	... 18 more

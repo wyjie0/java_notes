@@ -1,0 +1,4 @@
+和equals
+其中元素必须定义hashcode
+在写操作时使用可重入锁ReentrantLock进行加锁
+CopyOnWriteArrayList是读写分离的

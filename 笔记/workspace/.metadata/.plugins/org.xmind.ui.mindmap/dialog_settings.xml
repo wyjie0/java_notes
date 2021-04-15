@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.xmind.ui.popupDialog">
+		<item value="231" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_HEIGHT"/>
+		<item value="536" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_Y_ORIGIN"/>
+		<item value="904" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_X_ORIGIN"/>
+		<item value="416" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_WIDTH"/>
+	</section>
+	<section name="org.xmind.ui.HyperlinkDialog">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<item value="481" key="DIALOG_HEIGHT"/>
+		<item value="250,750" key="sashFormWeights"/>
+		<item value="663" key="DIALOG_X_ORIGIN"/>
+		<item value="205" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
